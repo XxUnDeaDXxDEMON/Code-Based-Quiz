@@ -137,7 +137,7 @@ function getQuestion() {
       window.localStorage.setItem("highscores", JSON.stringify(highscores));
   
       
-      window.location.href = "score.html";
+      window.location.href = "scores.html";
     }
   }
   
