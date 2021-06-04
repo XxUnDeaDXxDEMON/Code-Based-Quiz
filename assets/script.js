@@ -12,7 +12,7 @@ var time = questions.length * 15;
 var timerId;
 
 
-function startQuiz() {
+function startQuiz() {  debugger
 
     var startScreenEl = document.getElementById("start-screen");
     startScreenEl.setAttribute("class","hide");
@@ -23,7 +23,7 @@ function startQuiz() {
 
     timerEl.textContent = time;
 
-    getQuestions();
+    getQuestion();
 }
 
 function getQuestion() {
