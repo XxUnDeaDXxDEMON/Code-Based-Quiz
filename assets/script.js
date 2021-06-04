@@ -12,8 +12,7 @@ var time = questions.length * 15;
 var timerId;
 
 
-function startQuiz() {  debugger
-
+function startQuiz() { 
     var startScreenEl = document.getElementById("start-screen");
     startScreenEl.setAttribute("class","hide");
 
